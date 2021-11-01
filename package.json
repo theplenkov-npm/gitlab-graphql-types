@@ -15,12 +15,13 @@
     "url": "https://github.com/theplenkov-npm/gitlab-graphql-types/issues"
   },
   "homepage": "https://github.com/theplenkov-npm/gitlab-graphql-types#readme",
-  "dependencies": {
-    "graphql": "^15.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "graphql": "^15.0.0",
     "@graphql-codegen/cli": "2.2.2",
+    "@graphql-codegen/introspection": "2.1.0",
     "@graphql-codegen/typescript": "2.3.0",
-    "@graphql-codegen/introspection": "2.1.0"
-  }
+    "@tsconfig/recommended": "^1.0.1"
+  },
+  "types": "./src/generated/graphql.ts"
 }
