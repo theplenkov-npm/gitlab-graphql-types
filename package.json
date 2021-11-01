@@ -1,0 +1,26 @@
+{
+  "name": "gitlab-graphql-types",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theplenkov-npm/gitlab-graphql-types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theplenkov-npm/gitlab-graphql-types/issues"
+  },
+  "homepage": "https://github.com/theplenkov-npm/gitlab-graphql-types#readme",
+  "dependencies": {
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.2.2",
+    "@graphql-codegen/typescript": "2.3.0",
+    "@graphql-codegen/introspection": "2.1.0"
+  }
+}
