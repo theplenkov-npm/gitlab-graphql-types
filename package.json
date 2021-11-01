@@ -23,5 +23,10 @@
     "@graphql-codegen/typescript": "2.3.0",
     "@tsconfig/recommended": "^1.0.1"
   },
-  "types": "./graphql.d.ts"
+  "types": "./graphql.d.ts",
+  "keywords": [
+    "gitlab",
+    "graphql",
+    "typescript"
+  ]
 }
