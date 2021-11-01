@@ -1,7 +1,7 @@
 overwrite: true
 schema: "https://gitlab.com/api/graphql"
 generates:
-  src/generated/graphql.ts:
+  ./graphql.d.ts:
     plugins:
       - "typescript"
   ./graphql.schema.json:

@@ -103,5 +103,5 @@ dist
 # TernJS port file
 .tern-port
 package-lock.json
-graphql.schema.json
-src/generated/*
+/graphql.schema.json
+/graphql.d.ts
