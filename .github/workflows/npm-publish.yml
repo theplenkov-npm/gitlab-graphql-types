@@ -17,7 +17,8 @@ jobs:
           node-version: 14
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm run codegen
+      - run: npm run codegen 
+      - run: npm run build
       - run: npx json -f package.json -I -e "delete this.devDependencies"
       - run: npm publish
         env:
