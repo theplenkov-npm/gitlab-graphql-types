@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node -e 'import \"gitlab-graphql-types\";'"
+    "test": "ts-node -e 'import { Project } from \"gitlab-graphql-types\";'"
   },
   "author": "",
   "license": "ISC",
