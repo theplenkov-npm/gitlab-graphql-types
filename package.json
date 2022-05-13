@@ -1,10 +1,10 @@
 {
   "name": "gitlab-graphql-types",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "",
   "scripts": {
     "codegen": "graphql-codegen --config codegen.yml",
-    "build":"tsc --declaration graphql.ts"
+    "build": "tsc --declaration graphql.ts"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@graphql-codegen/cli": "2.2.2",
     "@graphql-codegen/introspection": "2.1.0",
-    "@graphql-codegen/typescript": "2.3.0",    
+    "@graphql-codegen/typescript": "2.3.0",
     "graphql": "^15.0.0"
   },
   "types": "./graphql.d.ts",
