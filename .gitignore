@@ -106,3 +106,4 @@ dist
 /graphql.schema.json
 /*.ts
 /*.js
+test/ts-node/package-lock.json
